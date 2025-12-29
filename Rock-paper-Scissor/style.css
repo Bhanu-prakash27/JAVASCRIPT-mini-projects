@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+.choices{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.choice{
+width: 150px;
+height:150px;
+gap:20px;
+cursor: pointer;
+}
+img{
+    width: 120px;
+height:120px;
+}
+img:hover{
+    opacity:0.5;
+}
+.score{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+    font-size: 30px;
+}
+#userscore,#compscore{
+    font-size: 40px;
+}
+button{
+    width: 100px;
+    height:40px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left:580px;
+    background-color: aqua;
+}
+.msg-container{
+    margin-left:300px;
+    width:700px;
+    height:50px;
+    text-align:center;
+    background-color: blue;
+    border:2px solid black;
+    border-radius:5px;
+    margin-top: 80px;
+    font-size: 30px;
+}
